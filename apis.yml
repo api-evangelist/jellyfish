@@ -1,8 +1,28 @@
 aid: jellyfish
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jellyfish.png
 name: Jellyfish
-description: 'Jellyfish is a company surfaced as a portfolio company of accel, insight-partners, wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: productivity. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Jellyfish is a software engineering intelligence (SEI) platform that turns
+  data from developer tools — issue trackers (Jira, Linear, Azure Boards), source
+  control and CI/CD (GitHub, Azure DevOps), and AI coding assistants (Claude Code,
+  Cursor, GitHub Copilot, Amazon Q, Gemini Code Assist) — into productivity and
+  business-impact insights for R&D leaders. The platform measures AI adoption,
+  engineering allocation, and delivery across the software development lifecycle
+  through a Data Hub, extensible dashboards, and AI-assisted custom queries.
+  Jellyfish is an enterprise, demo-gated product with no public self-service API;
+  data access is delivered through the product and its integrations rather than a
+  documented developer API. Backed by Accel, Insight Partners, and Wing Venture
+  Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/jellyfish/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Productivity
+- Engineering Intelligence
+- Engineering Management
+- Developer Productivity
+- Software Development
+- DevOps
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +51,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/jellyfish-trust-center.yml
+- type: DomainSecurity
+  url: security/jellyfish-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/jellyfish-vulnerability-disclosure.yml
+- type: Security
+  url: https://jellyfish.co/learn/trust-center/security-advisories-and-bulletins/
+- type: Compliance
+  url: https://jellyfish.co/learn/trust-center/
 - type: Website
   url: https://jellyfish.co
+- type: Pricing
+  url: https://jellyfish.co/pricing/
+- type: Blog
+  url: https://www.jellyfish.co/blog/
+- type: Support
+  url: https://help.jellyfish.co/hc/en-us
+- type: Login
+  url: https://app.jellyfish.co/account/login/
+- type: PrivacyPolicy
+  url: https://jellyfish.co/library/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
