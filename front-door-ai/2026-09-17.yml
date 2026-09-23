@@ -1,0 +1,34 @@
+# Front Door AI Index — jellyfish — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: jellyfish
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: jellyfish.co
+  final_host: jellyfish.co
+  ownership: own
+  owner: jellyfish
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 88
+  host_score: 88
+  density: 40.18
+  words: 2190
+  tiers:
+    agentic: 10
+    core: 67
+    model: 11
+  ambiguous: 10
+  top_terms:
+    AI: 67
+    intelligence: 9
+    Claude: 6
+    Gemini: 5
+    copilot: 5
+    AI assistant: 2
+    AI agent: 1
+    agent: 1
+    agentic: 1
+    prompts: 1
