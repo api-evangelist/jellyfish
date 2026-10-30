@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Jellyfish is a company surfaced as a portfolio company of accel, insight-partners, wing-venture-capital and added to the API Evangelist network as a stub for enrichment. Sector: productivity. This profile is a lead awaiting the enrichment pipeline.
+Jellyfish is a software engineering intelligence (SEI) platform that turns data from developer tools — issue trackers (Jira, Linear, Azure Boards), source control and CI/CD (GitHub, Azure DevOps), and AI coding assistants (Claude Code, Cursor, GitHub Copilot, Amazon Q, Gemini Code Assist) — into productivity and business-impact insights for R&D leaders. The platform measures AI adoption, engineering allocation, and delivery across the software development lifecycle through a Data Hub, extensible dashboards, and AI-assisted custom queries. Jellyfish is an enterprise, demo-gated product with no public self-service API; data access is delivered through the product and its integrations rather than a documented developer API. Backed by Accel, Insight Partners, and Wing Venture Capital.
 
-Backed by: accel, insight-partners, wing-venture-capital — https://jellyfish.co
+**Areas:** Company · Productivity · Engineering Intelligence · Engineering Management · Developer Productivity · Software Development · DevOps · Analytics
+
+## Jellyfish on APIs.io
+
+Everything profiled for Jellyfish is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jellyfish/](https://apis.io/providers/jellyfish/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Jellyfish Domain Security](https://apis.io/security/jellyfish/jellyfish-domain-security/)
+- [Jellyfish Trust Center](https://apis.io/security/jellyfish/jellyfish-trust-center/)
+- [Jellyfish Vulnerability Disclosure](https://apis.io/security/jellyfish/jellyfish-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://jellyfish.co)
+- [Pricing](https://jellyfish.co/pricing/)
+- [Support](https://help.jellyfish.co/hc/en-us)
+- [Blog](https://www.jellyfish.co/blog/)
+- [Security](https://jellyfish.co/learn/trust-center/security-advisories-and-bulletins/)
+- [Compliance](https://jellyfish.co/learn/trust-center/)
+- [Privacy policy](https://jellyfish.co/library/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 16.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 43.4 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jellyfish/](https://apis.io/providers/jellyfish/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jellyfish: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jellyfish/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
